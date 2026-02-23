@@ -6,7 +6,7 @@ import Html.Attributes exposing (href)
 
 
 
--- 1️⃣ joinWords
+--  joinWords
 
 
 joinWords : String -> String -> String
@@ -15,7 +15,7 @@ joinWords word1 word2 =
 
 
 
--- 2️⃣ isUpperChars
+--  isUpperChars
 
 
 isUpperChars : List Char -> List Bool
@@ -24,7 +24,7 @@ isUpperChars list =
 
 
 
--- 3️⃣ evalChars
+--  evalChars
 
 
 evalChars : List Char -> (Char -> Bool) -> List Bool
@@ -33,7 +33,7 @@ evalChars list funTrans =
 
 
 
--- 4️⃣ headers component
+--  headers component
 
 
 headers : String -> Html msg
@@ -49,7 +49,7 @@ headers param =
 
 
 
--- 5️⃣ hyperlink component
+--  hyperlink component
 
 
 hyperlink : String -> String -> Html msg
