@@ -35,11 +35,3 @@ headers param =
 hyperlink : String -> String -> Html msg
 hyperlink url textValue =
     a [ href url ] [ text textValue ]
-
-
-main : Html msg
-main =
-    div []
-        [ headers "Hello Elm!"
-        , hyperlink "https://elm-lang.org" "Visit Elm Website"
-        ]
